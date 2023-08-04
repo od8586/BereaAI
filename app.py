@@ -25,7 +25,7 @@ st.write("BereaAI has expertise in Biblical Hebrew, Greek, Apologetics, Theology
         The first answer takes a while to load but the consequent answers load much faster. \
         ")
 
-HUGGINGFACEHUB_API_TOKEN = st.secrets('HUGGINGFACEHUB_API_TOKEN')
+HUGGINGFACEHUB_API_TOKEN = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 
 repo_id = "meta-llama/Llama-2-7b-chat-hf"
